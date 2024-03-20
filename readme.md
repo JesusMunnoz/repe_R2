@@ -10,3 +10,11 @@ Hemos subido el archivo al “stage”, pero ahora nos damos cuenta que no es el
 
 - Haremos un "git add ." seguido de "git reset HEAD"
 vamos de "staging area" al "working directory" que es el paso previo a "git add .", como si no hubiesemos hecho git add .
+
+<<<<< reto 3 >>>>>
+subir archivo al "stage" >>> git add .
+Comprobar estado >>> git status
+Hacer commit >>> git commit -m "Haz el commit de este archivo"
+Comprobar estado >>> git status
+Revertir commit >>> git reset --soft HEAD~ 
+así volvemos a zona en la quye hay que introducir de nuevo el commit
