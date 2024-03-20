@@ -18,3 +18,12 @@ Hacer commit >>> git commit -m "Haz el commit de este archivo"
 Comprobar estado >>> git status
 Revertir commit >>> git reset --soft HEAD~ 
 así volvemos a zona en la quye hay que introducir de nuevo el commit
+
+<<<<< reto 4 >>>>>
+- metemos en la carpeta "reto 2" archivo ".gitignore"
+- este va a ignorar las imágenes de esa carpeta, así no pesará tanto, ya que le hemos dicho que ignore los .PNG. 
+Los .PNG que se encuentran fuera de la carpeta "reto 2", nolos ignorará.
+
+Lo quer habría que hacer en proyectos grandes en los que compañeros han instalado como por ejemplo librerías sería:
+- git pull
+- git init
